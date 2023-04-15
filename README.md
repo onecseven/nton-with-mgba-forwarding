@@ -1,4 +1,15 @@
-# NTON
+# NTON with MGBA FORWARDING
+
+This is a small change to the original NTON. All it does is remove the restriction that the --rom argument be paired with an .nro located in smdc:/retroarch/cores. Then you can just do:
+
+```
+nton build "D:/switch/mgba.nro" --rom "roms/gbc/cc.gbc" --sdmc /switch/mgba.nro -i ./icons/cc.jpg -n "Crystal Clear"
+```
+
+Obviously replacing the arguments for the ones in your computer.
+
+
+--------------------------------
 
 [![Build status](https://github.com/rlaphoenix/nton/actions/workflows/ci.yml/badge.svg)](https://github.com/rlaphoenix/nton/actions/workflows/ci.yml)
 [![PyPI version](https://img.shields.io/pypi/v/nton)](https://pypi.python.org/pypi/nton)
