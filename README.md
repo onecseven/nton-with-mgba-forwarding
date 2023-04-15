@@ -6,7 +6,7 @@ This is a small change to the original NTON. All it does is remove the restricti
 nton build "D:/switch/mgba.nro" --rom "roms/gbc/cc.gbc" --sdmc /switch/mgba.nro -i ./icons/cc.jpg -n "Crystal Clear"
 ```
 
-Obviously replacing the arguments for the ones in your computer.
+Obviously replacing the arguments for the ones in your computer. It works on my machine.
 
 
 --------------------------------
