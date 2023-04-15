@@ -130,10 +130,10 @@ def build(
     if rom:
         if not rom.startswith("/"):
             rom = f"/{rom}"
-        if "/retroarch/cores/" not in (str(path) + str(sdmc)).lower():
-            log.error(f"Setting a ROM path for the forwarder requires the NRO path to be to a RetroArch Core.")
-            log.error(f"Make sure you set it to a RetroArch Core and not to RetroArch itself or any other NRO.")
-            sys.exit(1)
+#         if "/retroarch/cores/" not in (str(path) + str(sdmc)).lower():
+#             log.error(f"Setting a ROM path for the forwarder requires the NRO path to be to a RetroArch Core.")
+#             log.error(f"Make sure you set it to a RetroArch Core and not to RetroArch itself or any other NRO.")
+#             sys.exit(1)
 
     log.info(f"Title ID: %s", id_)
 
